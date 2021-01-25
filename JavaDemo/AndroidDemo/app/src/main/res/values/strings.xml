@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidDemo</string>
+    <string name="signInUp">注册/登录</string>
+    <string name="update">修改</string>
+    <string name="delete">删除</string>
+    <string name="name">Name</string>
+    <string name="nameHint">请输入用户名</string>
+    <string name="passwordHint">请输入密码</string>
+</resources>
