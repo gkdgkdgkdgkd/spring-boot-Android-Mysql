@@ -1,4 +1,4 @@
-[中文](https://github.com/2293736867/AndroidWebMysql/blob/old/README.md) | English
+[中文](https://github.com/2293736867/spring-boot-Android-Mysql/blob/old/README.md) | English
 
 # This branch is old, please switch branch `main`
 
