@@ -1,4 +1,4 @@
-[中文]() | English
+[中文](https://github.com/2293736867/spring-boot-Android-Mysql/blob/main/README.md) | English
 
 # What's this?
 A simple CRUD demo based on `Spring Boot` + `Android` + `MySQL`.
