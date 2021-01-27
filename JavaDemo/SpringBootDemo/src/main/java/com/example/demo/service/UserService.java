@@ -14,29 +14,29 @@ import javax.transaction.Transactional;
 public class UserService {
     private final UserRepository repository;
 
-    public boolean exists(User user){
+    public boolean exists(User user) {
         return repository.existsByName(user.getName());
     }
 
-    public User findByNameAndPassword(User user){
-        return repository.findByNameAndPassword(user.getName(),user.getPassword());
+    public User findByNameAndPassword(User user) {
+        return repository.findByNameAndPassword(user.getName(), user.getPassword());
     }
 
-    public boolean insert(User user){
+    public boolean insert(User user) {
         repository.save(user);
         return true;
     }
 
-    public boolean update(User user){
-        if(repository.findById(user.getId()).isEmpty()){
+    public boolean update(User user) {
+        if (repository.findById(user.getId()).isEmpty()) {
             return false;
         }
         repository.save(user);
         return true;
     }
 
-    public boolean deleteById(int id){
-        if(!repository.existsById(id)){
+    public boolean deleteById(int id) {
+        if (!repository.existsById(id)) {
             return false;
         }
         repository.deleteById(id);
