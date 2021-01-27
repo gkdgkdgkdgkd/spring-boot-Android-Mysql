@@ -1,4 +1,4 @@
-中文 | [English]()
+中文 | [English](https://github.com/2293736867/spring-boot-Android-Mysql/blob/old/README_en.md)
 
 # 这是什么?
 
